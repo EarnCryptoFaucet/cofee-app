@@ -1,0 +1,125 @@
+{
+  "ingredients": [
+    {
+      "id": "ing_1",
+      "name": "Espresso Beans",
+      "stock": 5000,
+      "unit": "grams",
+      "threshold": 500,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ing_2",
+      "name": "Whole Milk",
+      "stock": 8000,
+      "unit": "ml",
+      "threshold": 1000,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ing_3",
+      "name": "Sugar",
+      "stock": 3000,
+      "unit": "grams",
+      "threshold": 300,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ing_4",
+      "name": "Vanilla Syrup",
+      "stock": 1500,
+      "unit": "ml",
+      "threshold": 200,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ing_5",
+      "name": "Whipped Cream",
+      "stock": 400,
+      "unit": "grams",
+      "threshold": 200,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ing_6",
+      "name": "Cocoa Powder",
+      "stock": 180,
+      "unit": "grams",
+      "threshold": 200,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "name": "Espresso",
+      "price": 2.5,
+      "recipe": [
+        { "ingredientId": "ing_1", "quantity": 18 }
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod_2",
+      "name": "Cappuccino",
+      "price": 4.0,
+      "recipe": [
+        { "ingredientId": "ing_1", "quantity": 18 },
+        { "ingredientId": "ing_2", "quantity": 120 }
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod_3",
+      "name": "Vanilla Latte",
+      "price": 5.0,
+      "recipe": [
+        { "ingredientId": "ing_1", "quantity": 18 },
+        { "ingredientId": "ing_2", "quantity": 200 },
+        { "ingredientId": "ing_4", "quantity": 30 }
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod_4",
+      "name": "Mocha",
+      "price": 5.5,
+      "recipe": [
+        { "ingredientId": "ing_1", "quantity": 18 },
+        { "ingredientId": "ing_2", "quantity": 150 },
+        { "ingredientId": "ing_6", "quantity": 20 },
+        { "ingredientId": "ing_3", "quantity": 15 }
+      ],
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale_1",
+      "productId": "prod_2",
+      "productName": "Cappuccino",
+      "price": 4.0,
+      "quantity": 1,
+      "total": 4.0,
+      "soldAt": "2025-01-15T08:30:00.000Z"
+    },
+    {
+      "id": "sale_2",
+      "productId": "prod_3",
+      "productName": "Vanilla Latte",
+      "price": 5.0,
+      "quantity": 1,
+      "total": 5.0,
+      "soldAt": "2025-01-15T09:15:00.000Z"
+    },
+    {
+      "id": "sale_3",
+      "productId": "prod_1",
+      "productName": "Espresso",
+      "price": 2.5,
+      "quantity": 1,
+      "total": 2.5,
+      "soldAt": "2025-01-15T10:00:00.000Z"
+    }
+  ]
+}
