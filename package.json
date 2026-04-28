@@ -4,7 +4,7 @@
   "description": "☕ Coffee Shop Inventory & Sales Management System",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node server.js",
     "dev": "nodemon backend/server.js",
     "test": "echo \"No tests configured\" && exit 0"
   },
