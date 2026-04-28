@@ -1,0 +1,153 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Whole Milk",
+      "stock": 5000,
+      "unit": "ml",
+      "threshold": 500,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Espresso Beans",
+      "stock": 2000,
+      "unit": "g",
+      "threshold": 200,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "White Sugar",
+      "stock": 3000,
+      "unit": "g",
+      "threshold": 300,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Caramel Syrup",
+      "stock": 1000,
+      "unit": "ml",
+      "threshold": 100,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Vanilla Syrup",
+      "stock": 800,
+      "unit": "ml",
+      "threshold": 100,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Whipped Cream",
+      "stock": 600,
+      "unit": "ml",
+      "threshold": 100,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Cocoa Powder",
+      "stock": 500,
+      "unit": "g",
+      "threshold": 50,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Oat Milk",
+      "stock": 2000,
+      "unit": "ml",
+      "threshold": 300,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Espresso",
+      "price": 2.50,
+      "description": "Strong single-shot espresso",
+      "emoji": "☕",
+      "recipe": [
+        { "ingredientId": 2, "amount": 18 }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "price": 4.00,
+      "description": "Espresso with steamed milk foam",
+      "emoji": "☕",
+      "recipe": [
+        { "ingredientId": 2, "amount": 18 },
+        { "ingredientId": 1, "amount": 150 }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Caramel Latte",
+      "price": 5.00,
+      "description": "Espresso with steamed milk and caramel syrup",
+      "emoji": "🥤",
+      "recipe": [
+        { "ingredientId": 2, "amount": 18 },
+        { "ingredientId": 1, "amount": 200 },
+        { "ingredientId": 4, "amount": 30 }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Vanilla Latte",
+      "price": 4.75,
+      "description": "Espresso with steamed milk and vanilla syrup",
+      "emoji": "🥛",
+      "recipe": [
+        { "ingredientId": 2, "amount": 18 },
+        { "ingredientId": 1, "amount": 200 },
+        { "ingredientId": 5, "amount": 25 }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Hot Chocolate",
+      "price": 3.75,
+      "description": "Creamy hot chocolate with whipped cream",
+      "emoji": "🍫",
+      "recipe": [
+        { "ingredientId": 1, "amount": 250 },
+        { "ingredientId": 7, "amount": 20 },
+        { "ingredientId": 3, "amount": 15 },
+        { "ingredientId": 6, "amount": 30 }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Oat Milk Latte",
+      "price": 5.25,
+      "description": "Vegan espresso latte with oat milk",
+      "emoji": "🌾",
+      "recipe": [
+        { "ingredientId": 2, "amount": 18 },
+        { "ingredientId": 8, "amount": 200 }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "sales": [],
+  "meta": {
+    "lastIngredientId": 8,
+    "lastProductId": 6,
+    "lastSaleId": 0,
+    "version": "1.0.0",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  }
+}
